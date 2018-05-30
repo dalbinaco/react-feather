@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./bin/build && babel src --out-dir dist --ignore 'src/svg'"
+    "build": "node ./bin/build && babel src --out-dir dist --ignore 'src/svg'",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
