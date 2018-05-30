@@ -5,19 +5,25 @@ const X = props => {
   const { color, size, ...otherProps } = props;
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
+      width="19"
+      height="19"
+      viewBox="0 0 19 19"
       fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <line x1="18" y1="6" x2="6" y2="18" />
-      <line x1="6" y1="6" x2="18" y2="18" />
+      <rect
+        width="1"
+        height="25"
+        rx="0.5"
+        transform="translate(0.00195312 0.707031) rotate(-45)"
+      />
+      <rect
+        width="1"
+        height="25"
+        rx="0.5"
+        transform="translate(17.6777) rotate(45)"
+      />
     </svg>
   );
 };
