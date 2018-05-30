@@ -5,24 +5,34 @@ const X = props => {
   const { color, size, ...otherProps } = props;
   return (
     <svg
+      xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      id="svg885"
+      style="fill:none"
       {...otherProps}
     >
       <rect
-        width="1"
-        height="24"
-        rx="0.5"
-        transform="translate(0.00195312 0.707031) rotate(-45)"
+        width="1.3631455"
+        height="32.715492"
+        rx="0.68157274"
+        transform="matrix(0.72111313,-0.69281733,0.72111313,0.69281733,0,0)"
+        id="rect881"
+        style="fill:#000000;stroke-width:1.36314547"
+        x="-0.68157274"
+        y="0.28319347"
       />
       <rect
-        width="1"
-        height="24"
-        rx="0.5"
-        transform="translate(17.6777) rotate(45)"
+        width="1.3631455"
+        height="32.715492"
+        rx="0.68157274"
+        transform="matrix(0.72111313,0.69281733,-0.72111313,0.69281733,0,0)"
+        id="rect883"
+        style="fill:#000000;stroke-width:1.36314547"
+        x="16.448416"
+        y="-16.846687"
       />
     </svg>
   );
