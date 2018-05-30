@@ -26,21 +26,21 @@ var X = function X(props) {
   return _react2.default.createElement(
     'svg',
     _extends({
-      width: '19',
-      height: '19',
-      viewBox: '0 0 19 19',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
       fill: 'none',
       xmlns: 'http://www.w3.org/2000/svg'
     }, otherProps),
     _react2.default.createElement('rect', {
       width: '1',
-      height: '25',
+      height: '24',
       rx: '0.5',
       transform: 'translate(0.00195312 0.707031) rotate(-45)'
     }),
     _react2.default.createElement('rect', {
       width: '1',
-      height: '25',
+      height: '24',
       rx: '0.5',
       transform: 'translate(17.6777) rotate(45)'
     })
