@@ -6,33 +6,33 @@ const X = props => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      version="1.1"
-      id="svg885"
       style="fill:none"
+      id="svg885"
+      version="1.1"
+      viewBox="0 0 24.000001 24"
+      height={size}
+      width={size}
       {...otherProps}
     >
       <rect
-        width="1.3631455"
-        height="32.715492"
-        rx="0.68157274"
-        transform="matrix(0.72111313,-0.69281733,0.72111313,0.69281733,0,0)"
-        id="rect881"
+        y="0.62301511"
+        x="-1.0213944"
         style="fill:#000000;stroke-width:1.36314547"
-        x="-0.68157274"
-        y="0.28319347"
+        id="rect881"
+        transform="matrix(0.72111313,-0.69281733,0.72111313,0.69281733,0,0)"
+        rx="0.68157274"
+        height="32.715492"
+        width="1.3631455"
       />
       <rect
-        width="1.3631455"
-        height="32.715492"
-        rx="0.68157274"
-        transform="matrix(0.72111313,0.69281733,-0.72111313,0.69281733,0,0)"
-        id="rect883"
+        y="-16.017925"
+        x="16.299189"
         style="fill:#000000;stroke-width:1.36314547"
-        x="16.448416"
-        y="-16.846687"
+        id="rect883"
+        transform="matrix(0.72111313,0.69281733,-0.72111313,0.69281733,0,0)"
+        rx="0.68157274"
+        height="32.715492"
+        width="1.3631455"
       />
     </svg>
   );
